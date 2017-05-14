@@ -2,8 +2,17 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  position: relative; }
 
 *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
+
+.container {
+  border: 1px solid black;
+  display: inline-block;
+  top: 10em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
