@@ -10,12 +10,10 @@
           box-sizing: inherit; }
 
 #signup-container {
-  border: 1px solid black;
-  display: inline-block;
-  top: 10em;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  background-color: #E4F1FE;
+  top: 50em;
+  width: 30em;
+  margin: 0 auto;
   padding: 1em 2em; }
   #signup-container h1 {
     margin-bottom: 1em; }
