@@ -1,15 +1,27 @@
 #signup-container
 	// opacity: 0
 	background-color: $light
+	color: $dark
+	border: 2px solid
+	border-radius: 7px
 	top: 50em
 	width: 30em
 	margin: 0 auto
 	padding: 1em 2em
+	h1, .submit-container
+		text-align: center
 	h1
 		margin-bottom: 1em
 	form
 		div
 			margin: 0.5em 0
-		.submit-container
-			text-align: center
+		input
+			width: 17em
+			height: 1.7em
+			font-size: 1.2em
+			border: 1px solid $dark
+			border-radius: 3px
+		input:focus
+			color: $light
+			background-color: $dark
 

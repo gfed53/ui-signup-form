@@ -9,15 +9,33 @@
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
+html, body {
+  height: 100%; }
+
+* {
+  font-family: 'Oxygen', sans-serif; }
+
 #signup-container {
-  background-color: #E4F1FE;
+  background-color: #fdfdfd;
+  color: #1F3A93;
+  border: 2px solid;
+  border-radius: 7px;
   top: 50em;
   width: 30em;
   margin: 0 auto;
   padding: 1em 2em; }
+  #signup-container h1, #signup-container .submit-container {
+    text-align: center; }
   #signup-container h1 {
     margin-bottom: 1em; }
   #signup-container form div {
     margin: 0.5em 0; }
-  #signup-container form .submit-container {
-    text-align: center; }
+  #signup-container form input {
+    width: 17em;
+    height: 1.7em;
+    font-size: 1.2em;
+    border: 1px solid #1F3A93;
+    border-radius: 3px; }
+  #signup-container form input:focus {
+    color: #fdfdfd;
+    background-color: #1F3A93; }
