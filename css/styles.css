@@ -22,20 +22,22 @@ html, body {
   border-radius: 7px;
   top: 50em;
   width: 30em;
-  margin: 0 auto;
-  padding: 1em 2em; }
+  margin: 0 auto; }
   #signup-container h1, #signup-container .submit-container {
     text-align: center; }
   #signup-container h1 {
-    margin-bottom: 1em; }
-  #signup-container form div {
-    margin: 0.5em 0; }
-  #signup-container form input {
-    width: 17em;
-    height: 1.7em;
-    font-size: 1.2em;
-    border: 1px solid #1F3A93;
-    border-radius: 3px; }
-  #signup-container form input:focus {
-    color: #fdfdfd;
-    background-color: #1F3A93; }
+    padding: 0.5em;
+    background-color: #1F3A93;
+    color: #fdfdfd; }
+  #signup-container form {
+    padding: 1em 2em; }
+    #signup-container form div {
+      margin: 0.5em 0; }
+    #signup-container form input, #signup-container form textarea {
+      border: 1px solid #1F3A93;
+      border-radius: 3px;
+      padding: 5px; }
+    #signup-container form input {
+      width: 17em;
+      height: 1.7em;
+      font-size: 1.2em; }
