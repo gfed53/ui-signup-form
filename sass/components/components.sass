@@ -1,8 +1,13 @@
+#signup-container, .tint:after
+	border-radius: 7px
+
 #signup-container
 	// opacity: 0
-	background-color: $light
+	background: url('../images/air.jpg') no-repeat center center
+	background-size: cover
+	// background-color: $light
 	color: $dark
-	border: 2px solid
+	border: 1px solid
 	border-radius: 7px
 	top: 42em
 	width: 30em
@@ -11,6 +16,7 @@
 		text-align: center
 	h1
 		padding: 0.5em
+		border-radius: 7px 7px 0 0
 		background-color: $dark
 		color: $light
 	form
@@ -29,10 +35,23 @@
 			// border: 1px solid $dark
 			// border-radius: 3px
 		.submit-container button
-			border: 2px solid
+			border: none
 			padding: 1em
 			border-radius: 7px
 			color: $light
 			background-color: $dark
 			font-size: 1.3em
+
+
+.tint:after
+	content: '' 
+	position: absolute
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	background: rgba(216, 216, 216, 0.89)
+
+.signup-contents
+	z-index: 99
 
