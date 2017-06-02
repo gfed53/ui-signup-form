@@ -8,7 +8,6 @@ $(function(){
 
 		signupContainer.velocity(
 		{
-			// opacity: 1,
 			translateY: '-40em'
 		},
 		{
