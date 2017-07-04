@@ -47,6 +47,8 @@ html, body {
       height: 1.7em;
       font-size: 1.2em; }
     #signup-container form .submit-container button {
+      -webkit-transition: 250ms ease-in-out all;
+      transition: 250ms ease-in-out all;
       border: none;
       padding: 1em;
       border-radius: 7px;
@@ -66,3 +68,7 @@ html, body {
 
 .signup-contents {
   z-index: 99; }
+
+@media screen and (min-width: 1024px) {
+  #signup-container .submit-container button:hover {
+    background-color: #1a3079; } }

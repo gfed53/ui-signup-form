@@ -30,6 +30,7 @@
 			height: 1.7em
 			font-size: 1.2em
 		.submit-container button
+			transition: 250ms ease-in-out all
 			border: none
 			padding: 1em
 			border-radius: 7px
@@ -37,6 +38,7 @@
 			background-color: $dark
 			font-size: 1.3em
 			cursor: pointer
+
 
 
 .tint:after
@@ -51,3 +53,7 @@
 .signup-contents
 	z-index: 99
 
+@media screen and ($desktop)
+	#signup-container
+		.submit-container button:hover
+			background-color: $darker
